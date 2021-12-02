@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 500px right 700px, top 170px left 360px;
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+
+.MainBox-1{
+    display: flex;
+}
+
+.SubMainBox-1{
+    width: 480px;
+    margin-left: 13%;
+    margin-top: 7%;
+}
+
+.SubMainBox-1 h1{
+    font-size: 43px;
+}
+
+.Stars{
+    margin-top: 10%;
+}
+
+.Stars div{
+    padding: 10px;
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 15px;
+}
