@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: bottom 500px right 700px, top 170px left 360px;
     font-size: 15px;
     font-family: 'Spartan', sans-serif;
@@ -27,7 +28,21 @@ body{
 }
 
 .Stars div{
-    padding: 10px;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 50px;
     background-color: hsl(300, 24%, 96%);
+    border-radius: 15px;
     margin-bottom: 15px;
+    background-image: url(../images/icon-star.svg), 
+                      url(../images/icon-star.svg),
+                      url(../images/icon-star.svg), 
+                      url(../images/icon-star.svg), 
+                      url(../images/icon-star.svg);
+    background-repeat: no-repeat;
+    background-position: center left calc(30px), 
+                         center left calc(50px),
+                         center left calc(70px),
+                         center left calc(90px),
+                         center left calc(110px);
 }
