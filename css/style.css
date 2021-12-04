@@ -4,31 +4,44 @@ body{
     background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: bottom 500px right 700px, top 170px left 360px;
+    background-position: bottom 500px right 850px, top 170px left 360px;
     font-size: 15px;
     font-family: 'Spartan', sans-serif;
 }
 
 .MainBox-1{
     display: flex;
+    margin-bottom: 5%;
 }
 
 .SubMainBox-1{
     width: 480px;
-    margin-left: 13%;
+    margin-left: 9%;
     margin-top: 7%;
 }
 
 .SubMainBox-1 h1{
     font-size: 43px;
+    color: hsl(300, 43%, 22%);
+}
+
+.SubMainBox-1 p{
+    color: hsl(303, 10%, 53%);
+    line-height: 25px;
 }
 
 .Stars{
     margin-top: 10%;
+    margin-left: 12%;
+}
+
+.Stars p{
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
 }
 
 .Stars div{
-    padding: 20px;
+    padding: 7px;
     padding-left: 150px;
     padding-right: 50px;
     background-color: hsl(300, 24%, 96%);
@@ -45,4 +58,55 @@ body{
                          center left calc(70px),
                          center left calc(90px),
                          center left calc(110px);
+}
+
+.Stars .Stars-2{
+    position: relative;
+    left: 10%;
+}
+
+.Stars .Stars-3{
+    position: relative;
+    left: 20%;
+}
+
+.Comments{
+    display: flex;
+}
+
+.Comments div{
+    width: 268px;
+    height: 190px;
+    background-color: hsl(300, 43%, 22%);
+    margin-right: 3%;
+    padding: 40px;
+    border-radius: 11px;
+}
+
+.Comments img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.Comments-1{
+    margin-left: 9.5%;
+}
+
+.Comments-1 section, .Comments-2 section, .Comments-3 section{
+    display: inline-block;
+    font-size: 17px;
+    line-height: 4px;
+    position: relative;
+    bottom: 3px;
+    left: 23px;
+}
+
+.Comments-1 h2, .Comments-2 h2, .Comments-3 h2{
+    font-size: 17px;
+}
+
+.Comments-1 .Reviews, .Comments-2 .Reviews, .Comments-3 .Reviews, h2{
+    color: hsl(0, 0%, 100%);
+    line-height: 25px;
+    font-size: 12px;
 }
