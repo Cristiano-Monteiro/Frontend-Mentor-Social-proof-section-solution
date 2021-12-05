@@ -110,3 +110,94 @@ body{
     line-height: 25px;
     font-size: 12px;
 }
+
+.Comments .Comments-2{
+    position: relative;
+    top: 20px;
+}
+
+.Comments .Comments-3{
+    position: relative;
+    top: 40px;
+    margin-bottom: 10%;
+}
+
+.Comments-1 .Verified, .Comments-2 .Verified, .Comments-3 .Verified{
+    color: hsl(333, 80%, 67%);
+}
+
+@media screen and (max-width: 1098px) {
+    .Comments div{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 984px){
+    .Comments div{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .Comments div{
+        height: 370px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .MainBox-1{
+        display: block;
+    }
+
+    .Comments{
+        display: block;
+    }
+
+    .SubMainBox-1{
+        text-align: center;
+        margin-left: 17%;
+    }
+
+    .Stars{
+        margin-bottom: 10%;
+    }
+
+    .Stars div{
+        width: 250px; 
+    }
+
+    .Comments div{
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .SubMainBox-1{
+        margin-left: 3%;
+        margin-top: 20%;
+    }
+
+    .Stars div{
+        width: 250px;
+        padding-right: 3px;
+    }
+
+    .Stars .Stars-2{
+        position: relative;
+        left: 0;
+    }
+    
+    .Stars .Stars-3{
+        position: relative;
+        left: 0;
+    }
+
+    .Comments{
+        margin-bottom: 30%;
+    }
+
+    .Comments div{
+        height: 200px;
+        margin-left: 18%;
+    }
+}
