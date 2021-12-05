@@ -177,9 +177,40 @@ body{
         margin-top: 20%;
     }
 
+    .SubMainBox-1 h1{
+        width: 300px;
+        margin-left: 17%;
+    }
+
+    .SubMainBox-1 p{
+        width: 300px;
+        margin-left: 17%;
+    }
+
     .Stars div{
-        width: 250px;
+        width: 200px;
+        height: 70px;
         padding-right: 3px;
+        margin-left: 7%;
+        background-position: top calc(20px) left calc(135px), 
+        top calc(20px) left calc(165px),
+        top calc(20px) left calc(195px),
+        top calc(20px) left calc(225px),
+        top calc(20px) left calc(255px);
+    }
+
+    .Stars div p{
+        position: relative;
+        top: 20px;
+        right: 78px;
+    }
+
+    .Stars .Stars-2 p{
+        right: 70px;
+    }
+
+    .Stars ,.Stars-3 p{
+        
     }
 
     .Stars .Stars-2{
