@@ -1,3 +1,4 @@
+![img-pag-avaliacao](https://user-images.githubusercontent.com/91402144/148682585-fef3235c-58ce-4343-b905-558fd1b418e0.png)
 # Pagina-de-avaliacoes-de-usuarios
 (PT-BR) Página com avaliações sobre algum produto/serviço.
 
