@@ -126,6 +126,20 @@ body{
     color: hsl(333, 80%, 67%);
 }
 
+@media screen and (max-width: 1280px) {
+    .Stars{
+        margin-left: 5%;
+    }
+
+    .Comments{
+        margin-right: 5%;
+    }
+
+    .Comments div{
+        height: 220px;
+    }
+}
+
 @media screen and (max-width: 1098px) {
     .Comments div{
         height: 250px;
