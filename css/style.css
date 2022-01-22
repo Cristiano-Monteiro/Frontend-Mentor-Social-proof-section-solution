@@ -161,6 +161,7 @@ body{
 @media screen and (max-width: 768px) {
     .MainBox-1{
         display: block;
+        margin-top: 10%;
     }
 
     .Comments{
@@ -178,10 +179,15 @@ body{
 
     .Stars div{
         width: 250px; 
+        margin-left: 15%;
+    }
+
+    .Stars .Stars-2, .Stars .Stars-3{
+        left: 0;
     }
 
     .Comments div{
-        margin-left: 25%;
+        margin-left: 27%;
     }
 }
 
