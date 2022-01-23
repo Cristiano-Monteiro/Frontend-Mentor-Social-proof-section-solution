@@ -191,6 +191,20 @@ body{
     }
 }
 
+@media screen and (max-width: 540px) {
+    .SubMainBox-1{
+        margin-left: 5%;
+    }
+
+    .Stars div{
+        margin-left: 3%;
+    }
+
+    .Comments div{
+        margin-left: 18%;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .SubMainBox-1{
         margin-left: 3%;
