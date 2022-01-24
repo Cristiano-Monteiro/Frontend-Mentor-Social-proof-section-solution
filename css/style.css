@@ -313,3 +313,41 @@ body{
         margin-left: 6%;
     }
 }
+
+@media screen and (max-width: 280px) {
+    *{
+        max-width: 140px;
+    }
+
+    .SubMainBox-1 h1{
+        font-size: 20px;
+    }
+
+    .SubMainBox-1 p{
+        font-size: 15px;
+    }
+
+    .SubMainBox-1{
+        margin-left: 45%;
+        width: 100%;
+        padding: 0;
+    }
+
+    .Stars div{
+        background-position: top calc(20px) left calc(60px), 
+        top calc(20px) left calc(90px),
+        top calc(20px) left calc(120px),
+        top calc(20px) left calc(150px),
+        top calc(20px) left calc(180px);
+        width: 100%;
+    }
+
+    .Stars p{
+        text-align: center;
+    }
+
+    .Comments div{
+        margin-left: 24%;
+        height: 400px;
+    }
+}
