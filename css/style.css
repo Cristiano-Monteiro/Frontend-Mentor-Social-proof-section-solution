@@ -350,4 +350,14 @@ body{
         margin-left: 24%;
         height: 400px;
     }
+
+    .Comments img{
+        width: 60px;
+        position: relative;
+        left: 28%;
+    }
+
+    .Comments section{
+        left: 5%;
+    }
 }
