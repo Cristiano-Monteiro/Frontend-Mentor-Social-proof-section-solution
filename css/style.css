@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -128,7 +128,8 @@ body{
 
 @media screen and (max-width: 1280px) {
     .Stars{
-        margin-left: 5%;
+        margin-right: 5%;
+        margin-left: 3%;
     }
 
     .Comments{
@@ -160,34 +161,37 @@ body{
 
 @media screen and (max-width: 768px) {
     .MainBox-1{
-        display: block;
+        flex-direction: column;
+        align-items: center;
         margin-top: 10%;
-    }
-
-    .Comments{
-        display: block;
     }
 
     .SubMainBox-1{
         text-align: center;
-        margin-left: 17%;
+        margin-left: 0%;
     }
 
     .Stars{
         margin-bottom: 10%;
+        margin-left: 0%;
     }
 
     .Stars div{
         width: 250px; 
-        margin-left: 15%;
     }
 
     .Stars .Stars-2, .Stars .Stars-3{
-        left: 0;
+        left: 0px;
+    }
+
+    .Comments{
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
     }
 
     .Comments div{
-        margin-left: 27%;
+        margin: 0%;
     }
 }
 
