@@ -141,6 +141,30 @@ body{
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .MainBox-1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .SubMainBox-1{
+        width: 100%;
+        max-width: 70%;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .Stars{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+    }
+
+    .Stars .Stars-2, .Stars .Stars-3{
+        left: 0%;
+    }
+}
+
 @media screen and (max-width: 1098px) {
     .Comments div{
         height: 250px;
