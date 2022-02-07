@@ -15,7 +15,8 @@ body{
 }
 
 .SubMainBox-1{
-    width: 480px;
+    width: 100%;
+    max-width: 35%;
     margin-left: 9%;
     margin-top: 7%;
 }
@@ -32,7 +33,9 @@ body{
 
 .Stars{
     margin-top: 10%;
-    margin-left: 12%;
+    margin-left: 9%;
+    width: 100%;
+    max-width: 31%;
 }
 
 .Stars p{
@@ -127,11 +130,6 @@ body{
 }
 
 @media screen and (max-width: 1280px) {
-    .Stars{
-        margin-right: 5%;
-        margin-left: 3%;
-    }
-
     .Comments{
         margin-right: 5%;
     }
@@ -141,6 +139,7 @@ body{
     }
 }
 
+/*
 @media screen and (max-width: 1024px) {
     .MainBox-1{
         flex-direction: column;
@@ -163,7 +162,7 @@ body{
     .Stars .Stars-2, .Stars .Stars-3{
         left: 0%;
     }
-}
+}*/
 
 @media screen and (max-width: 1098px) {
     .Comments div{
