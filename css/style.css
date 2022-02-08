@@ -75,11 +75,12 @@ body{
 
 .Comments{
     display: flex;
+    margin-right: 5%;
 }
 
 .Comments div{
-    width: 268px;
-    height: 190px;
+    width: 100%;
+    height: auto;
     background-color: hsl(300, 43%, 22%);
     margin-right: 3%;
     padding: 40px;
@@ -95,13 +96,13 @@ body{
     margin-left: 9.5%;
 }
 
-.Comments-1 section, .Comments-2 section, .Comments-3 section{
+.Comments section{
     display: inline-block;
     font-size: 17px;
     line-height: 4px;
     position: relative;
     bottom: 3px;
-    left: 23px;
+    left: 5%;
 }
 
 .Comments-1 h2, .Comments-2 h2, .Comments-3 h2{
@@ -122,99 +123,69 @@ body{
 .Comments .Comments-3{
     position: relative;
     top: 40px;
-    margin-bottom: 10%;
 }
 
 .Comments-1 .Verified, .Comments-2 .Verified, .Comments-3 .Verified{
     color: hsl(333, 80%, 67%);
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1012px) {
     .Comments{
-        margin-right: 5%;
+        margin-bottom: 15%;
     }
 
     .Comments div{
-        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Comments section{
+        left: 0%;
     }
 }
 
-/*
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 937px){
     .MainBox-1{
         flex-direction: column;
         align-items: center;
     }
 
     .SubMainBox-1{
-        width: 100%;
-        max-width: 70%;
         margin-left: 0%;
+        max-width: 70%;
         text-align: center;
     }
 
     .Stars{
         margin-left: 0%;
         margin-right: 0%;
-        margin-bottom: 5%;
+        max-width: 70%;
+        text-align: end;
     }
 
     .Stars .Stars-2, .Stars .Stars-3{
         left: 0%;
-    }
-}*/
-
-@media screen and (max-width: 1098px) {
-    .Comments div{
-        height: 250px;
-    }
-}
-
-@media screen and (max-width: 984px){
-    .Comments div{
-        height: 300px;
-    }
-}
-
-@media screen and (max-width: 812px) {
-    .Comments div{
-        height: 370px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .MainBox-1{
-        flex-direction: column;
-        align-items: center;
-        margin-top: 10%;
-    }
-
-    .SubMainBox-1{
-        text-align: center;
-        margin-left: 0%;
-    }
-
-    .Stars{
-        margin-bottom: 10%;
-        margin-left: 0%;
-    }
-
-    .Stars div{
-        width: 250px; 
-    }
-
-    .Stars .Stars-2, .Stars .Stars-3{
-        left: 0px;
     }
 
     .Comments{
         flex-direction: column;
         align-items: center;
         margin: 0%;
+        margin-bottom: 15%;
+    }
+    
+    .Comments div{
+        display: block;
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+        max-width: 60%;
+        height: auto;
     }
 
-    .Comments div{
-        margin: 0%;
+    .Comments section{
+        left: 5%;
     }
 }
 
@@ -223,183 +194,51 @@ body{
         background-size: 70vw, 90vh;
     }
 
-    .SubMainBox-1{
-        margin-left: 5%;
-    }
-
-    .Stars div{
-        margin-left: 3%;
-    }
-
-    .Comments div{
-        margin-left: 18%;
+    .Comments{
+        margin-bottom: 30%;
     }
 }
 
 @media screen and (max-width: 411px) {
-    *{
-        max-width: 360px;
-    }
-
-    .SubMainBox-1{
-        margin-top: 20%;
-        margin-left: 14%;
-    }
-
     .SubMainBox-1 h1{
-        width: 300px;
-    }
-
-    .SubMainBox-1 p{
-        width: 300px;
+        font-size: 30px;
     }
 
     .Stars div{
-        width: 200px;
-        height: 70px;
-        padding-right: 3px;
-        margin-left: 2%;
-        background-position: top calc(20px) left calc(105px), 
-        top calc(20px) left calc(135px),
-        top calc(20px) left calc(165px),
-        top calc(20px) left calc(195px),
-        top calc(20px) left calc(225px);
+        text-align: center;
+        height: 120px;
+        padding-right: 0px;
+        background-position: top calc(20px) left calc(30%), 
+        top calc(20px) left calc(40%),
+        top calc(20px) left calc(50%),
+        top calc(20px) left calc(60%),
+        top calc(20px) left calc(70%);
     }
 
     .Stars div p{
-        width: 250px;
+        width: 100%;
         position: relative;
-        top: 20px;
-        right: 78px;
-    }
-
-    .Stars .Stars-2 p{
-        right: 95px;
-    }
-
-    .Stars .Stars-2, .Stars .Stars-3{
-        position: relative;
-        left: 0;
-    }
-
-    .Comments{
-        margin-bottom: 30%;
-    }
-
-    .Comments div{
-        height: 200px;
-        margin-left: 8%;
+        top: 2em;
+        right: 5em;
     }
 }
 
-@media screen and (max-width: 375px) {
-    *{
-        max-width: 325px;
-    }
-
-    .SubMainBox-1{
-        margin-left: 10%;
-    }
-
+@media screen and (max-width: 302px) {
     .Stars div{
-        width: 100%;
-        max-width: 180px;
-        padding-left: 130px;
-        margin-left: 5%;
-        background-position: top calc(20px) left calc(90px), 
-        top calc(20px) left calc(120px),
-        top calc(20px) left calc(150px),
-        top calc(20px) left calc(180px),
-        top calc(20px) left calc(210px);
+        height: 170px;
     }
 
     .Comments div{
-        margin-left: 5%;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    *{
-        max-width: 260px;
-    }
-
-    .SubMainBox-1{
-        margin-left: 18%;
-    }
-
-    .Stars div{
-        margin-left: 7%;
-        width: 100%;
-        max-width: 170px;
-        padding-left: 120px;
-        background-position: top calc(20px) left calc(80px), 
-        top calc(20px) left calc(110px),
-        top calc(20px) left calc(140px),
-        top calc(20px) left calc(170px),
-        top calc(20px) left calc(200px);
-    }
-
-    .Comments div{
-        width: 100%;
-        margin-left: 6%;
-    }
-}
-
-@media screen and (max-width: 280px) {
-    *{
-        max-width: 140px;
-    }
-
-    .SubMainBox-1 h1{
-        font-size: 20px;
-    }
-
-    .SubMainBox-1 p{
-        font-size: 15px;
-    }
-
-    .SubMainBox-1{
-        margin-left: 49%;
-        width: 100%;
-        margin-top: 50%;
-        margin-bottom: 30%
-    }
-
-    .Stars div{
-        background-position: top calc(20px) left calc(55px), 
-        top calc(20px) left calc(85px),
-        top calc(20px) left calc(115px),
-        top calc(20px) left calc(145px),
-        top calc(20px) left calc(175px);
-        width: 100%;
-        height: 90px;
-        padding: 0px;
-        padding-right: 115px;
-        padding-top: 12%;
-    }
-
-    .Stars p{
-        text-align: center;
-        left: 40%;
-    }
-
-    .Comments{
-        margin-top: 50%;
-        margin-bottom: 80%;
-    }
-
-    .Comments div{
-        margin-left: 24%;
-        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .Comments img{
         width: 60px;
-        position: relative;
-        left: 28%;
     }
 
     .Comments section{
-        left: 5%;
+        left: 0%;
     }
 }
