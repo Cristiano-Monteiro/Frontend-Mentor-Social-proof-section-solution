@@ -76,6 +76,7 @@ body{
 .Comments{
     display: flex;
     margin-right: 5%;
+    margin-bottom: 15%;
 }
 
 .Comments div{
@@ -130,10 +131,6 @@ body{
 }
 
 @media screen and (max-width: 1012px) {
-    .Comments{
-        margin-bottom: 15%;
-    }
-
     .Comments div{
         display: flex;
         flex-direction: column;
