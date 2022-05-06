@@ -12,13 +12,13 @@
 - (PT-BR) Desafio de uma página com reviews sobre algum produto/serviço utilizando apenas HTML e CSS .
 
 ### Links
-- Solution URL: https://github.com/Cristiano-Monteiro/Pagina-de-avaliacoes-de-usuarios
-- Live Site URL: https://cristiano-monteiro.github.io/Pagina-de-avaliacoes-de-usuarios/
+- Solution URL: https://github.com/Cristiano-Monteiro/Frontend-Mentor-Social-proof-section-solution
+- Live Site URL: https://cristiano-monteiro.github.io/Frontend-Mentor-Social-proof-section-solution/
 
 ## My-process / Meu processo
 ### Built with / Construído com
 - CSS Flexbox
-- 
+- Responsive web design
 
 ## Author / Autor
 - Frontend Mentor - [@Cristiano-Monteiro](https://www.frontendmentor.io/profile/Cristiano-Monteiro)
